@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url('/img/GrowaLogoFiltro.png');
+    background-image: url('./img/GrowaLogoFiltro.png');
     background-size: cover;
     background-attachment: fixed;
     background-size: 100% 100%;
