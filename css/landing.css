@@ -10,21 +10,19 @@ body{
     background-attachment: fixed;
     background-size: 100% 100%;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20%;
-    font-weight: bold;
 }
 
 .centro{
     background-color: var(--main-white-color);
     border-radius: 10px;
+    border-style: none;
     text-align: center;
 }
 
 .imagenLogo {
     width: 80%;
-    height: 80%;
-    border-style: solid; 
-    border-color: red;
+    height: 120%;
+    margin-bottom: -20%;
 }
 
 .seccionBotones{
@@ -37,15 +35,54 @@ body{
     width: 90%;
     margin-bottom: 20px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px #c8c7c7;;
+    box-shadow: 5px 5px 5px #c8c7c7;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.boton:hover {
+    background-color:#35c83f;
+    color: var(--main-white-color);
+}
+
+.icono{
+    color: var(--main-white-color);
+    float: left;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.icono-mapa{
+    color: var(--main-black-color);
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 550px){
     .imagenLogo{
         width: 100%;
-        height: 100%;
+        margin-bottom: none;
     }
     .boton{
         width: 90%;
+    }
+    .icono{
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    .icono-mapa{
+        font-size: 20px;
+    }
+    .boton{
+        background-color: var(--main-green-color);
+        width: 90%;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px #c8c7c7;
+        font-size: 20px;
+        font-weight: bold;
+        display: inline-block;
     }
 }
