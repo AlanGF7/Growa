@@ -6,23 +6,23 @@
 
 body{
     background-image: url('../img/GrowaLogoFiltro.png');
-    background-size: cover;
+    /* background-size: cover; */
     background-attachment: fixed;
     background-size: 100% 100%;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .centro{
-    background-color: var(--main-white-color);
+    /* background-color: #FFFFFF */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     border-style: none;
     text-align: center;
 }
 
 .imagenLogo {
-    width: 80%;
-    height: 120%;
-    margin-bottom: -20%;
+    width: 600px;
+    height: 200px;
 }
 
 .seccionBotones{
@@ -37,7 +37,6 @@ body{
     border-radius: 20px;
     box-shadow: 5px 5px 5px #c8c7c7;
     font-size: 30px;
-    font-weight: bold;
     display: inline-block;
 }
 
@@ -60,9 +59,21 @@ body{
     padding-bottom: 20px;
 }
 
+.icono-mapa:hover{
+    color: var(--main-green-color);
+}
+
+#copyright{
+    text-align: center;
+    color: var(--main-white-color);
+    font-size: 15px;
+    padding-top: 30px;
+}
+
 @media (max-width: 550px){
     .imagenLogo{
         width: 100%;
+        height: 120%;
         margin-bottom: none;
     }
     .boton{
@@ -73,7 +84,7 @@ body{
         margin-top: 4px;
     }
     .icono-mapa{
-        font-size: 20px;
+        font-size: 15px;
     }
     .boton{
         background-color: var(--main-green-color);
@@ -84,5 +95,16 @@ body{
         font-size: 20px;
         font-weight: bold;
         display: inline-block;
+    }
+    #copyright{
+        text-align: center;
+        color: var(--main-white-color);
+        font-size: 10px;
+        padding-top: 20px;
+    }
+    body{
+        /* background-size: cover; */
+        background-attachment: fixed;
+        background-size: 100% 100%;
     }
 }
