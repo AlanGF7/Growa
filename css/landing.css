@@ -2,6 +2,7 @@
     --main-black-color: #2b2b27;
     --main-green-color: #2da736;
     --main-white-color: #FFFFFF;
+    --gray-buttons-color: #EFEFEF;
 }
 
 body{
@@ -30,7 +31,8 @@ body{
 }
 
 .boton{
-    background-color: var(--main-green-color);
+    background-color: var(--gray-buttons-color);
+    color: var(--main-green-color);
     width: 90%;
     margin-bottom: 20px;
     border-radius: 20px;
@@ -44,11 +46,16 @@ body{
     color: var(--main-white-color);
 }
 
-.icono{
+.boton:hover > i {
+    background-color:#35c83f;
     color: var(--main-white-color);
+}
+
+.icono{
+    color: var(--main-green-color);
     float: left;
     font-size: 20px;
-    margin-top: 4px;
+    margin-top: 8px;
 }
 
 .icono-mapa{
@@ -61,6 +68,8 @@ body{
 .icono-mapa:hover{
     color: var(--main-green-color);
 }
+
+
 
 #copyright{
     text-align: center;
@@ -87,7 +96,6 @@ body{
         justify-content: center;
     }
     .boton{
-        background-color: var(--main-green-color);
         width: 90%;
         margin-bottom: 20px;
         border-radius: 20px;
