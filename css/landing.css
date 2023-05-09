@@ -132,5 +132,9 @@ body{
         background-size: 100% 100%;
     }
 
+    .bg{
+        display: none;
+    }
+
 
 }
