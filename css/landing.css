@@ -21,8 +21,7 @@ body{
 }
 
 .imagenLogo {
-    width: 600px;
-    height: 200px;
+    width: 400px;
 }
 
 .seccionBotones{
@@ -73,7 +72,6 @@ body{
 @media (max-width: 550px){
     .imagenLogo{
         width: 100%;
-        height: 120%;
         margin-bottom: none;
     }
     .boton{
@@ -85,6 +83,8 @@ body{
     }
     .icono-mapa{
         font-size: 15px;
+        text-align: center;
+        justify-content: center;
     }
     .boton{
         background-color: var(--main-green-color);
