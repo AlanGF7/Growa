@@ -58,14 +58,14 @@ body{
     margin-top: 8px;
 }
 
-.icono-mapa{
+.icono-mapa, .icono-cel{
     color: var(--main-black-color);
     text-decoration: none;
     font-size: 20px;
     padding-bottom: 20px;
 }
 
-.icono-mapa:hover{
+.icono-mapa:hover, .icono-cel:hover{
     color: var(--main-green-color);
 }
 
@@ -90,7 +90,7 @@ body{
         font-size: 20px;
         margin-top: 4px;
     }
-    .icono-mapa{
+    .icono-mapa, .icono-cel{
         font-size: 15px;
         text-align: center;
         justify-content: center;
